@@ -1,0 +1,41 @@
+$(function(){
+   $("#usuarios").click(function(event){
+       event.preventDefault();
+       $("#linksGimnasios").slideUp();
+       $("#linksClientes").slideUp();
+       $("#linksMembresias").slideUp();
+       $("#linksUsuarios").slideDown();
+   });
+   $("#gimnasios").click(function(event){
+       event.preventDefault();
+       $("#linksUsuarios").slideUp();
+       $("#linksClientes").slideUp();
+       $("#linksMembresias").slideUp();
+       $("#linksGimnasios").slideDown();
+   });
+   $("#clientes").click(function(event){
+       event.preventDefault();
+       $("#linksUsuarios").slideUp();
+       $("#linksGimnasios").slideUp();
+       $("#linksMembresias").slideUp();
+       $("#linksClientes").slideDown();
+   });
+   $("#membresias").click(function(event){
+       event.preventDefault();
+       $("#linksUsuarios").slideUp();
+       $("#linksGimnasios").slideUp();
+       $("#linksClientes").slideUp();
+       $("#linksMembresias").slideDown();
+   });
+   $("#inicio,#micuenta,#ayuda").click(function(event){       
+       $("#linksUsuarios").slideUp();
+       $("#linksGimnasios").slideUp();
+       $("#linksMembresias").slideUp();
+       $("#linksClientes").slideUp();
+   });
+   
+   $("#salir").click(function(event){
+       event.preventDefault();
+       top.location='/QuickFitness/login.jsp?s=i';
+    });
+});

@@ -1,0 +1,347 @@
+html {
+  height: 100%;
+}
+body {
+  font-family: 'Helvetica Neue', Helvetica, Arial, Sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+h2 {
+  color: #fff;
+  font-size: 36px;
+  margin: 0 0 0 13px;
+}
+.field {
+  border: none;
+  color: #333;
+  font-family: inherit;
+  font-size: 18px;
+  font-weight:normal;
+  height: 36px;
+  line-height:18px;
+  padding: 0;
+  padding-left: 10px;
+  margin: 0;
+  outline: 0;
+  text-align: left;
+  text-color: #8E8E8E;
+  width: 186px;
+
+  -webkit-appearance: none;
+  -webkit-border-radius: 4px;
+  -webkit-box-shadow: 0 1px 2px 0 white, 0 1px 3px 0 #7A7A7A inset;
+  background: -webkit-gradient(linear, 0% 100%, 0% 00%, from(#F0F0F0), to(white));
+}
+#backdrop {
+  background-color: #9F1414;
+  background: -moz-radial-gradient(center 90deg, #B01B1B 40%, #000000 118%) fixed; /* Firefox Needs some work didn't really get translate from Safari well */
+  background: -webkit-gradient(radial, center 40%, 900, center 40%, 200, from(rgba(0, 0, 0, 1.0)), to(#B01B1B)) fixed; /* Safari */
+}
+#bo {
+  width:228px;
+}
+#boltLogo {
+  width:125px;
+}
+#container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+#elephantLogo {
+  left:0px;
+  position:absolute;
+  text-align:center;
+  top:22px;
+  width:100%;
+  z-index:3
+}
+#emailContainer {
+  position: absolute;
+  top: 136px;
+  left: 16px;
+}
+#emailContainer2 {
+  position: absolute;
+  top: 240px;
+  left: 16px;
+}
+#emailHint {
+  color:#bcbcbc;
+  font-size:18px;
+  font-weight:normal;
+  position: absolute;
+  top:5px;
+  left:14px;
+}
+#emailHint2 {
+  color:#bcbcbc;
+  font-size:18px;
+  font-weight:normal;
+  position: absolute;
+  top:5px;
+  left:14px;
+}
+#formErrors {
+  color: #f7d67c;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 16px;
+  position: absolute;
+  top: -46px;
+  left: 4px;
+}
+#formErrors a, #formErrors a:visited {
+  color: #f7d67c;
+}
+#gradient1 {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(60, 60, 60, 0.8)), to(rgba(10, 10, 10, 0.9)));
+  -webkit-border-top-right-radius: 13px;
+  -webkit-border-top-left-radius: 13px;
+
+  height: 95px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+}
+#gradient2 {
+  height: 94px;
+  position: absolute;
+  top: 95px;
+  left: 0px;
+  width: 100%;
+
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.9)), to(rgba(0, 0, 0, 0.9)));
+  -webkit-border-bottom-right-radius: 13px;
+  -webkit-border-bottom-left-radius: 13px;
+}
+#haveKeyMessage {
+  left:0px;
+  position: absolute;
+  text-align:right;
+  top: 197px;
+  width:100%;
+}
+#haveKeyMessage a {
+  color: #ababab;
+  font-size: 14px;
+  font-weight:bold;
+  margin-right:4px;
+  text-decoration:none;
+}
+#heading {
+  color: #bcbcbc;
+  font-size: 17px;
+  font-weight:normal;
+  position: absolute;
+  line-height: 22px;
+  top: 54px;
+  left: 16px;
+  width: 270px;
+}
+#ie_bg {
+  display: none;
+}
+#login {
+  position:fixed;
+  right:10px;
+  top:0px;
+}
+#login a {
+  color: white;
+  float:right;
+  font-weight: bold;
+  font-size: 14px;
+  display: block;
+  height: 25px;
+  text-align:center;
+  width: 81px;
+  padding-top: 4px;
+  /*margin: 16px 0 45px 0; /* margin: 16px 0 33px 0; */
+  text-decoration: none;
+  border: 1px solid #6F1717;
+  -webkit-border-radius: 5px;
+  -webkit-box-shadow: inset rgba(217, 202, 202, .75) 0 0 2px 0, rgba(194, 194, 194, .8) 0 0 1px 0px;
+  background: #A60808;
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #8a0505), color-stop(1, #d32c2c));
+}
+#logoContainer {
+  position: absolute;
+  top: 17px;
+  left: 14px;
+}
+#modalbox {
+  position:relative;
+  z-index:200;
+  border: 1px solid #666;
+  height: 189px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 115px;
+  padding: 0px;
+  text-align: left;
+  width: 300px;
+
+  -webkit-box-shadow: 0px 0px 5px rgb(0, 0, 0);
+  -webkit-border-radius: 13px;
+}
+/* style form elements on focus */
+input:focus {
+  background: #e4e4e4; /* border: 1px solid #e4e4e4; */
+}
+#submit {
+  border: 1px solid #6F1717;
+  color: white;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 18px;
+  font-weight:bold;
+  height: 38px;
+  outline: medium none;
+  padding-left:14px;
+  text-align:left;
+  width: 66px; /* padding: 13px 187px 15px 187px; */
+/* Centers text in button. iPhone scales button down with this method */
+
+  -webkit-border-radius: 5px;
+  -webkit-box-shadow: 0 0 2px 0 #D9CACA inset;
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #A60808), color-stop(1, #D32C2C));
+}
+#submitContainer {
+  position: absolute;
+  top: 136px;
+  left: 218px;
+}
+#thanks {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.9)), to(rgba(0, 0, 0, 0.9)));
+  -webkit-border-radius: 10px;
+  height:267px;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:53px;
+  width:302px;
+}
+#thanksHeadline {
+  color:#fff;
+  font-size:18px;
+  font-weight:bold;
+  left:0px;
+  position:absolute;
+  top:10px;
+}
+#thanksInfo {
+  color: #ccc;
+  font-size: 13px;
+  font-weight:normal;
+  left: 0px;
+  line-height: 14px;
+  position: absolute;
+  text-align: left;
+  top:38px;
+  width:264px;
+}
+#thanksEdit {
+  cursor: pointer;
+  left: 0px;
+  position: absolute;
+  text-align:left;
+  top:107px;
+  width:236px;
+  padding: 3px 0px 0px 7px;
+  height: 23px;
+  color: white;
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: bold;
+  margin: 0px;
+  outline: medium none;
+  border: 1px solid #6f6f6f;
+  -webkit-border-radius: 5px;
+  -webkit-box-shadow: 0 0 2px 0 #d9d9d9 inset;
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #333333), color-stop(1, #6b6b6b));
+  cursor: pointer;
+}
+#thanksEditLabel {
+  display:inline;
+}
+#thanksShare {
+  color:#fff;
+  font-size:15px;
+  font-weight:bold;
+  left:0px;
+  line-height:25px;
+  position:absolute;
+  text-align:left;
+  top:150px;
+}
+#thanksSocial {
+  color: #fff;
+  font-size:14px;
+  font-weight:normal;
+  left: 0px;
+  line-height: 14px;
+  position: absolute;
+  text-align: left;
+  top:168px;
+}
+#thanksSocial .share-options {
+  color: #999;
+  font-size: 13px;
+  font-weight:bold;
+  padding: 0;
+  list-style: none;
+}
+#thanksSocial .share-options li {
+  margin: 7px 0 8px 0; /* display: inline; */
+}
+#thanksSocial .share-options a {
+  display: block;
+  color: #999999;
+  height: 19px;
+  width: 140px;
+  line-height: 19px;
+  text-indent: 28px; /* padding: 10px 14px 10px 40px; */
+  text-decoration: none;
+  background: transparent url('https://s2.bo.lt/8agjfqw8va:1/_root_2.png') no-repeat;
+}
+#thanksSocial .share-options a.facebook {
+  background-position: 0px 0px;
+}
+#thanksSocial .share-options a.twitter {
+  background-position: 0px -37px;
+}
+#thanksSocial .share-options a.email {
+  background-position: 0px -77px;
+}
+#thanksCopy {
+  color: #bcbcbc;
+  font-size:12px;
+  font-style:italic;
+  font-weight:normal;
+  left: 120px;
+  line-height: 12px;
+  position: absolute;
+  text-align: left;
+  top:196px;
+  width:170px;
+}
+#thanksUrl {
+  color: #999;
+  font-size:14px;
+  height:23px;
+  left: 120px;
+  line-height:14px;
+  padding:0px 0px 0px 5px;
+  position: absolute;
+  text-align: left;
+  top:226px;
+  width:144px;
+}
+#m4-admin-bar {
+  display:none;
+}
+#m4-bolt-bar {
+  display:none;
+}

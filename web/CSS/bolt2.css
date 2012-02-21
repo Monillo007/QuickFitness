@@ -1,0 +1,97 @@
+#sb {
+  background: url('Imagenes/sylte/_root2.png') no-repeat;
+  font-family: 'Helvetica Neue', Helvetica, Arial, Sans-serif;
+  height: 325px;
+  left:100px;
+  padding: 20px 0px 0px 40px;
+  position: absolute;
+  text-align:left;
+  top:100px;
+  width: 417px;
+  z-index:99999;
+}
+#shareClose {
+  position:absolute;
+  left:382px;
+  top:12px;
+}
+#shareCopyLink {
+  font-size: 14px;
+  font-style: italic;
+  color: #999;
+}
+#shareField {
+  width:324px;
+  height: 43px;
+  padding: 0;
+  margin: 0;
+  line-height: 43px; /* vertically aligns input text in IE */
+
+  text-align: left;
+  text-color: #8E8E8E;
+  -webkit-appearance: none;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  border: none;
+  box-shadow: 0 1px 2px 0 white, 0 1px 3px 0 #7A7A7A inset;
+  -moz-box-shadow: 0 1px 2px 0 white, 0 1px 3px 0 #7A7A7A inset;
+  -webkit-box-shadow: 0 1px 2px 0 white, 0 1px 3px 0 #7A7A7A inset;
+  background: -webkit-gradient(linear, 0% 100%, 0% 00%, from(#F0F0F0), to(white));
+  background: -moz-linear-gradient(bottom, #F0F0F0, white);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorStr = 'white', EndColorStr = '#F0F0F0');
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='white',EndColorStr='#F0F0F0')";
+  font-family: inherit;
+  font-size: 24px;
+  color: #999;
+  padding-left: 18px;
+  outline: 0;
+}
+.sharebar h3 {
+  color: white;
+  font-size: 24px;
+  font-weight: normal;
+  margin: 8px 0px 6px 0px;
+}
+.sharebar .shareOptions {
+  font-size: 21px;
+  font-weight: bold;
+  color: #999999;
+  padding: 0;
+  list-style: none;
+}
+.sharebar .shareOptions li {
+  margin: 11px 0 12px 0; /* display: inline; */
+}
+.sharebar .shareOptions a {
+  display: block;
+  color: #999999;
+  height: 28px;
+  width: 140px;
+  line-height: 28px;
+  text-indent: 40px; /* padding: 10px 14px 10px 40px; */
+  text-decoration: none;
+  background: transparent url('Imagenes/style/_root3.png') no-repeat;
+}
+.sharebar .shareOptions a.shareFacebook {
+  background-position: 0px 0px;
+}
+.sharebar .shareOptions a.shareTwitter {
+  background-position: 0px -63px;
+}
+.sharebar .shareOptions a.shareEmail {
+  background-position: 0px -127px;
+}
+.sharebar .shareOptions a.shareFacebook:hover {
+  background-position: 0px -31px;
+}
+.sharebar .shareOptions a.shareTwitter:hover {
+  background-position: 0px -94px;
+}
+.sharebar .shareOptions a.shareEmail:hover {
+  background-position: 0px -155px;
+}
+.sharebar .shareOptions a:hover {
+  color: white;
+  text-decoration: underline;
+}

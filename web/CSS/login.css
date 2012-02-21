@@ -1,0 +1,108 @@
+body {
+	background:url(../Imagenes/gif/degradado2.gif);
+	background-attachment:fixed;
+	font-family: 'Lucida Sans', 'Arial', 'Helvetica', 'sans-serif';
+	line-height:20px;
+	font-size:12px;
+	color: #2e2e2e;
+	margin-top:150px;
+}
+
+div.Banda
+{
+    position:absolute;
+    left:0%;
+    top:0px;
+    overflow:visible;
+    height:134px;
+    width:124px;
+    margin:0 0 0 0px;
+    padding:0 0 0 0;
+    z-index:1000000000;
+    border:none;
+    float:none;
+}
+
+div.Banda2
+{
+    position:absolute;
+    left:100%;
+    top:0px;
+    overflow:visible;
+    height:134px;
+    width:124px;
+    margin:0 0 0 -124px;
+    padding:0 0 0 0;
+    z-index:1000000000;
+    border:none;
+    float:none;
+}
+#contenedor {
+	margin:0 auto;
+	width:442px;
+	height:341px;
+	background:#FFFFFF;
+	text-align:justify;
+	background:url(../Imagenes/png/fondo.png);
+}
+
+#contenido {
+margin:25px 0px 0px 0px;
+width:235px;
+height:120px;
+float:left;
+padding-left:195px;
+}
+
+
+
+#usuario {
+	clear:both;
+	padding-top:50px;
+	padding-left:50px;
+	width:180px;
+	height:25px;
+}
+
+#contra {
+	clear:both;
+	padding-top:10px;
+	padding-left:28px;	
+	width:200px;
+	height:25px;
+}
+
+#keys {
+	clear:both;
+	padding-top:10px;
+	padding-left:72px;	
+	width:150px;
+	height:25px;
+}
+
+.cajatexto{
+	width:110px;
+	height:14px;
+	margin-right:5px;
+	font-size:11px;
+}
+
+.cajatexto2{
+	width:110px;
+	height:14px;
+	margin-right:5px;
+	font-size:11px;
+}
+
+
+.ico_boton1{
+margin:10px 5px 0px 50px;
+}
+
+.ico_boton2{
+margin:0px 0px 0px 0px;
+}
+
+.menus {
+behavior: url(iepngfix.htc)
+}

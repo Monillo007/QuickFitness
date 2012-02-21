@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context antiJARLocking="true" path="/QuickFitness">
+            
+    
+    <Resource
+    name="jdbc/fitness" 
+    auth="Container"
+    type="javax.sql.DataSource"
+    maxActive="100"
+    maxIdle="300"
+    maxWait="10000"
+    username="hann_fitness"
+    min-connections="5"                                                      
+    inactivity-timeout="200"                                                 
+    wait-timeout="10"
+    password="qw1as2zx3"
+    driverClassName="com.mysql.jdbc.Driver"
+    url="jdbc:mysql://50.61.227.131:3306/hann_qf?autoReconnect=true" /> 
+    
+</Context>

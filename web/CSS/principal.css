@@ -1,0 +1,69 @@
+body, input, textarea, select, button {
+    font-family: Helvetica Neue, Helvetica, Arial, Sans-serif;
+    font-size:14px;
+}
+
+a{
+    color:#BE0000;
+    text-decoration:none;
+}
+
+a:hover{
+    text-decoration:underline;
+}
+
+.links{
+    font-size:11px;
+}
+
+.links2{
+    font-size:11px;
+}
+
+.top {
+    width: 100%;
+    background: #EDEDED url('img/header_bg_small.png') no-repeat center;
+    /*background: #EDEDED no-repeat center;*/
+    margin: 0;
+    height: 90px;
+    border-top: 2px solid #BE0000;
+    position: relative;
+    padding:0;
+    display:block;
+}
+
+.bottom {
+    width: 100%;
+    /*  background: #EDEDED url('img/header_bg_small.png') no-repeat center;*/
+    background: #EDEDED no-repeat center;
+    margin: 0;
+    height: 90px;   
+    position: relative;
+    padding:0;
+    display:block;
+    text-align:center;
+    font-size:11px;
+}
+
+.bottomInner{
+    border-top: solid 2px #E5E5E5;
+    width:80%;
+    margin:0;
+    padding:0;
+    position:relative;
+}
+
+.center{
+    /*width:960px;*/
+    /*text-decoration:none;*/
+    padding:0 20px;
+}
+
+.infoCuenta{
+    float: right;
+    font-size: 14px;
+    margin: 10px 0 0 0;
+    text-align: right;
+    max-width: 400px;
+    font-weight:bold;
+}

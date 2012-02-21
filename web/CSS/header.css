@@ -1,0 +1,20 @@
+.header {
+	background: #27579F;
+	width: 900px;
+	height: 124px;
+}
+.tablaTit {
+	height:auto;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #FFFFFF;
+}
+
+.Msfecha {
+	width: 242px;
+	margin-left: 30em;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #FFFFFF;
+	vertical-align: bottom;
+}

@@ -1,0 +1,80 @@
+#sb {
+  background-color:#000;
+  border:1px solid #666;
+  -webkit-border-radius: 14px;
+  font-family: 'Helvetica Neue', Helvetica, Arial, Sans-serif;
+  height: 217px;
+  left:20px;
+  padding: 8px 0px 0px 14px;
+  position: absolute;
+  text-align:left;
+  top:20px;
+  width: 153px;
+  z-index:99999;
+}
+#shareClose {
+  position:absolute;
+  left:140px;
+  top:4px;
+}
+#shareCopyLink {
+  font-size: 13px;
+  font-style: italic;
+  line-height:13px;
+  margin-bottom:0px;
+  color: #aaa;
+}
+#shareField {
+  color: #999;
+  font-family: inherit;
+  font-size: 14px;
+  height: 24px;
+  line-height:14px;
+  padding: 0px 0px 0px 4px;
+  margin: 0;
+  text-align: left;
+  text-color: #8E8E8E;
+  -webkit-appearance: none;
+  -webkit-border-radius: 4px;
+  border: none;
+  -webkit-box-shadow: 0 1px 2px 0 white, 0 1px 3px 0 #7A7A7A inset;
+  background: -webkit-gradient(linear, 0% 100%, 0% 00%, from(#F0F0F0), to(white));
+  outline: 0;
+  width:127px;
+}
+.sharebar h3 {
+  color: white;
+  font-size: 14px;
+  font-weight: normal;
+  margin: 8px 0px 6px 0px;
+  width: 140px;
+}
+.sharebar .shareOptions {
+  font-size: 13px;
+  font-weight: bold;
+  color: #999;
+  padding: 0;
+  list-style: none;
+}
+.sharebar .shareOptions li {
+  margin: 6px 0 7px 0; /* display: inline; */
+}
+.sharebar .shareOptions a {
+  display: block;
+  color: #999999;
+  height: 18px;
+  width: 140px;
+  line-height: 19px;
+  text-indent: 28px; /* padding: 10px 14px 10px 40px; */
+  text-decoration: none;
+  background: transparent url('https://s2.bo.lt/8agjfqw8va:1/_root_2.png') no-repeat;
+}
+.sharebar .shareOptions a.shareFacebook {
+  background-position: 0px 0px;
+}
+.sharebar .shareOptions a.shareTwitter {
+  background-position: 0px -37px;
+}
+.sharebar .shareOptions a.shareEmail {
+  background-position: 0px -76px;
+}
